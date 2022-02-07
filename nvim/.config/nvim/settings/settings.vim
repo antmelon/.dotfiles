@@ -1,26 +1,34 @@
-set exrc
-set guicursor=
-set number
-set relativenumber
-set nohlsearch
+let g:mapleader = "\<Space>"
+
+syntax enable
 set hidden
-set noerrorbells
+set nowrap
+set encoding=utf-8
+set pumheight=10
+set fileencoding=utf-8
+set ruler
+set cmdheight=2
+set iskeyword+=-
+set mouse=a
+set splitbelow
+set splitright
+set t_Co=256
+set conceallevel=0
 set tabstop=4
 set shiftwidth=4
-set softtabstop=4
+set smarttab
 set expandtab
-set smartindent
-set nowrap
-set smartcase
-set noswapfile
-set nobackup
-set undodir=~/.vim/undodir
-set undofile
-set incsearch
-set termguicolors
-set scrolloff=8
+set autoindent
+set laststatus=0
+set number
+set cursorline
+set background=dark
+set showtabline=2
 set noshowmode
-set completeopt=menuone,noinsert,noselect
-set mouse=a
+set nobackup
+set nowritebackup
+set updatetime=300
+set timeoutlen=500
+set clipboard=unnamedplus
 
-colorscheme dracula
+cmap w!! w !sudo tee %

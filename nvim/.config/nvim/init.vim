@@ -41,9 +41,14 @@ Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
 Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'L3MON4D3/LuaSnip'
+
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 colorscheme dracula
+
+source $HOME/.config/nvim/themes/airline.vim
 
 lua <<EOF
 -- LSP settings

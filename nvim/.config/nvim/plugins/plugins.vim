@@ -19,6 +19,12 @@ Plug 'L3MON4D3/LuaSnip'
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+
+" Git Plugins
+Plug 'mhinz/vim-signify', { 'branch': 'legacy' }
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rhubarb'
+Plug 'junegunn/gv.vim'
 call plug#end()
 
 lua <<EOF

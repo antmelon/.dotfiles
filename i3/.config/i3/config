@@ -66,6 +66,9 @@ bindsym Mod1+shift+p exec /home/anthony/rofi-pass/rofi-pass
 # kill focused window
 bindsym Mod1+Shift+q kill
 
+# i3lock
+bindsym Mod1+shift+l exec "i3lock -c 000000"
+
 # start dmenu (a program launcher)
 #bindsym Mod1+d exec --no-startup-id dmenu_run
 # A more modern dmenu replacement is rofi:

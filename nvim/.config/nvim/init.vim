@@ -4,5 +4,6 @@ source $HOME/.config/nvim/keys/mappings.vim
 source $HOME/.config/nvim/themes/airline.vim
 
 source $HOME/.config/nvim/plugins/signify.vim
+source $HOME/.config/nvim/plugins/start-screen.vim
 colorscheme dracula
 

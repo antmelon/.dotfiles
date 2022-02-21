@@ -21,6 +21,7 @@ set expandtab
 set autoindent
 set laststatus=0
 set number
+set relativenumber
 set cursorline
 set background=dark
 set showtabline=2
